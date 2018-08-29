@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<!-- saved from url=(0103)https://public.tableau.com/profile/swetha.srivarna.s#!/vizhome/SavvyInsights-PowerUpAUTOMATION/HomePage -->
+<html xmlns:ng="http://angularjs.org" id="ng-app" ng-app="vizhub" ng-csp="" class="js js geolocation hashchange history pointerevents postmessage svg touchevents video backgroundsize boxshadow fontface cssgradients cssreflections textshadow csstransforms csstransitions localstorage" lang="en" dir="ltr" prefix="fb: http://ogp.me/ns/fb# og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book# profile: http://ogp.me/ns/profile# video: http://ogp.me/ns/video# product: http://ogp.me/ns/product#"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title ng-bind="(metaTag.title ? metaTag.title : &#39;Tableau Public&#39; )">Savvy Insights - PowerUp AUTOMATION - Swetha Srivarna S | Tableau Public</title>
+  <!----><meta ng-repeat="(name, content) in testInfoService.values" ng-attr-name="test-{{name}}" ng-attr-content="{{content}}" name="test-page-id" content="vizhome"><!---->
+  <script type="text/javascript" src="./Savvy Insights - PowerUp AUTOMATION - Swetha Srivarna S _ Tableau Public_files/35f2b5d0eb"></script><script async="" src="./Savvy Insights - PowerUp AUTOMATION - Swetha Srivarna S _ Tableau Public_files/uwt.js.download"></script><script type="text/javascript" async="" src="./Savvy Insights - PowerUp AUTOMATION - Swetha Srivarna S _ Tableau Public_files/insight.min.js.download"></script><script src="./Savvy Insights - PowerUp AUTOMATION - Swetha Srivarna S _ Tableau Public_files/378938312282541" async=""></script><script async="" src="./Savvy Insights - PowerUp AUTOMATION - Swetha Srivarna S _ Tableau Public_files/fbevents.js.download"></script><script type="text/javascript" async="" src="./Savvy Insights - PowerUp AUTOMATION - Swetha Srivarna S _ Tableau Public_files/analytics.js.download"></script><script src="./Savvy Insights - PowerUp AUTOMATION - Swetha Srivarna S _ Tableau Public_files/elqCfg.min.js.download" type="text/javascript" async=""></script><script src="./Savvy Insights - PowerUp AUTOMATION - Swetha Srivarna S _ Tableau Public_files/nr-spa-1071.min.js.download"></script><script async="" src="./Savvy Insights - PowerUp AUTOMATION - Swetha Srivarna S _ Tableau Public_files/gtm.js.download"></script><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"XA4CV19WGwUHU1dTAAM="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(20),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,c){try{h?h-=1:o(c||new UncaughtException(t,e,n),!0)}catch(f){try{i("ierr",[f,s.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t,e){var n=e?null:s.now();i("err",[t,n])}var i=t("handle"),a=t(21),c=t("ee"),s=t("loader"),f=t("gos"),u=window.onerror,d=!1,p="nr@seenError",h=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(13),t(12),"addEventListener"in window&&t(6),s.xhrWrappable&&t(14),d=!0)}c.on("fn-start",function(t,e,n){d&&(h+=1)}),c.on("fn-err",function(t,e,n){d&&!n[p]&&(f(n,p,function(){return!0}),this.thrown=!0,o(n))}),c.on("fn-end",function(){d&&!this.thrown&&h>0&&(h-=1)}),c.on("internal-error",function(t){i("ierr",[t,s.now(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(){M++,S=y.hash,this[u]=b.now()}function o(){M--,y.hash!==S&&i(0,!0);var t=b.now();this[l]=~~this[l]+t-this[u],this[d]=t}function i(t,e){E.emit("newURL",[""+y,e])}function a(t,e){t.on(e,function(){this[e]=b.now()})}var c="-start",s="-end",f="-body",u="fn"+c,d="fn"+s,p="cb"+c,h="cb"+s,l="jsTime",m="fetch",v="addEventListener",w=window,y=w.location,b=t("loader");if(w[v]&&b.xhrWrappable){var g=t(10),x=t(11),E=t(8),P=t(6),O=t(13),R=t(7),T=t(14),L=t(9),j=t("ee"),N=j.get("tracer");t(15),b.features.spa=!0;var S,M=0;j.on(u,r),j.on(p,r),j.on(d,o),j.on(h,o),j.buffer([u,d,"xhr-done","xhr-resolved"]),P.buffer([u]),O.buffer(["setTimeout"+s,"clearTimeout"+c,u]),T.buffer([u,"new-xhr","send-xhr"+c]),R.buffer([m+c,m+"-done",m+f+c,m+f+s]),E.buffer(["newURL"]),g.buffer([u]),x.buffer(["propagate",p,h,"executor-err","resolve"+c]),N.buffer([u,"no-"+u]),L.buffer(["new-jsonp","cb-start","jsonp-error","jsonp-end"]),a(T,"send-xhr"+c),a(j,"xhr-resolved"),a(j,"xhr-done"),a(R,m+c),a(R,m+"-done"),a(L,"new-jsonp"),a(L,"jsonp-end"),a(L,"cb-start"),E.on("pushState-end",i),E.on("replaceState-end",i),w[v]("hashchange",i,!0),w[v]("load",i,!0),w[v]("popstate",function(){i(0,M>1)},!0)}},{}],5:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(13),c=t(12),s="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",p="resource",h="-start",l="-end",m="fn"+h,v="fn"+l,w="bstTimer",y="pushState",b=t("loader");b.features.stn=!0,t(8);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=b.now())}),o.on(v,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,b.now()])}),a.on(m,function(t,e,n){this.bstStart=b.now(),this.bstType=n}),a.on(v,function(t,e){i(w,[e,this.bstStart,b.now(),this.bstType])}),c.on(m,function(){this.bstStart=b.now()}),c.on(v,function(t,e){i(w,[e,this.bstStart,b.now(),"requestAnimationFrame"])}),o.on(y+h,function(t){this.time=b.now(),this.startPath=location.pathname+location.hash}),o.on(y+l,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+s]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["c"+s]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["webkitC"+s]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],6:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(23)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],7:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=r.apply(this,arguments);return o.emit(n+"start",arguments,t),t.then(function(e){return o.emit(n+"end",[null,e],t),e},function(e){throw o.emit(n+"end",[e],t),e})})}var o=t("ee").get("fetch"),i=t(20);e.exports=o;var a=window,c="fetch-",s=c+"body-",f=["arrayBuffer","blob","json","text","formData"],u=a.Request,d=a.Response,p=a.fetch,h="prototype";u&&d&&p&&(i(f,function(t,e){r(u[h],e,s),r(d[h],e,s)}),r(a,"fetch",c),o.on(c+"end",function(t,e){var n=this;e?e.clone().arrayBuffer().then(function(t){n.rxSize=t.byteLength,o.emit(c+"done",[null,e],n)}):o.emit(c+"done",[t],n)}))},{}],8:[function(t,e,n){var r=t("ee").get("history"),o=t(23)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],9:[function(t,e,n){function r(t){function e(){s.emit("jsonp-end",[],p),t.removeEventListener("load",e,!1),t.removeEventListener("error",n,!1)}function n(){s.emit("jsonp-error",[],p),s.emit("jsonp-end",[],p),t.removeEventListener("load",e,!1),t.removeEventListener("error",n,!1)}var r=t&&"string"==typeof t.nodeName&&"script"===t.nodeName.toLowerCase();if(r){var o="function"==typeof t.addEventListener;if(o){var a=i(t.src);if(a){var u=c(a),d="function"==typeof u.parent[u.key];if(d){var p={};f.inPlace(u.parent,[u.key],"cb-",p),t.addEventListener("load",e,!1),t.addEventListener("error",n,!1),s.emit("new-jsonp",[t.src],p)}}}}}function o(){return"addEventListener"in window}function i(t){var e=t.match(u);return e?e[1]:null}function a(t,e){var n=t.match(p),r=n[1],o=n[3];return o?a(o,e[r]):e[r]}function c(t){var e=t.match(d);return e&&e.length>=3?{key:e[2],parent:a(e[1],window)}:{key:t,parent:window}}var s=t("ee").get("jsonp"),f=t(23)(s);if(e.exports=s,o()){var u=/[?&](?:callback|cb)=([^&#]+)/,d=/(.*)\.([^.]+)/,p=/^(\w+)(\.|$)(.*)$/,h=["appendChild","insertBefore","replaceChild"];f.inPlace(HTMLElement.prototype,h,"dom-"),f.inPlace(HTMLHeadElement.prototype,h,"dom-"),f.inPlace(HTMLBodyElement.prototype,h,"dom-"),s.on("dom-start",function(t){r(t[0])})}},{}],10:[function(t,e,n){var r=t("ee").get("mutation"),o=t(23)(r),i=NREUM.o.MO;e.exports=r,i&&(window.MutationObserver=function(t){return this instanceof i?new i(o(t,"fn-")):i.apply(this,arguments)},MutationObserver.prototype=i.prototype)},{}],11:[function(t,e,n){function r(t){var e=a.context(),n=c(t,"executor-",e),r=new f(n);return a.context(r).getCtx=function(){return e},a.emit("new-promise",[r,e],e),r}function o(t,e){return e}var i=t(23),a=t("ee").get("promise"),c=i(a),s=t(20),f=NREUM.o.PR;e.exports=a,f&&(window.Promise=r,["all","race"].forEach(function(t){var e=f[t];f[t]=function(n){function r(t){return function(){a.emit("propagate",[null,!o],i),o=o||!t}}var o=!1;s(n,function(e,n){Promise.resolve(n).then(r("all"===t),r(!1))});var i=e.apply(f,arguments),c=f.resolve(i);return c}}),["resolve","reject"].forEach(function(t){var e=f[t];f[t]=function(t){var n=e.apply(f,arguments);return t!==n&&a.emit("propagate",[t,!0],n),n}}),f.prototype["catch"]=function(t){return this.then(null,t)},f.prototype=Object.create(f.prototype,{constructor:{value:r}}),s(Object.getOwnPropertyNames(f),function(t,e){try{r[e]=f[e]}catch(n){}}),a.on("executor-start",function(t){t[0]=c(t[0],"resolve-",this),t[1]=c(t[1],"resolve-",this)}),a.on("executor-err",function(t,e,n){t[1](n)}),c.inPlace(f.prototype,["then"],"then-",o),a.on("then-start",function(t,e){this.promise=e,t[0]=c(t[0],"cb-",this),t[1]=c(t[1],"cb-",this)}),a.on("then-end",function(t,e,n){this.nextPromise=n;var r=this.promise;a.emit("propagate",[r,!0],n)}),a.on("cb-end",function(t,e,n){a.emit("propagate",[n,!0],this.nextPromise)}),a.on("propagate",function(t,e,n){this.getCtx&&!e||(this.getCtx=function(){if(t instanceof Promise)var e=a.context(t);return e&&e.getCtx?e.getCtx():this})}),r.toString=function(){return""+f})},{}],12:[function(t,e,n){var r=t("ee").get("raf"),o=t(23)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],13:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(23)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],14:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",c)}function i(t){b.push(t),l&&(x?x.then(a):v?v(a):(E=-E,P.data=E))}function a(){for(var t=0;t<b.length;t++)r([],b[t]);b.length&&(b=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(6);var f=t("ee"),u=f.get("xhr"),d=t(23)(u),p=NREUM.o,h=p.XHR,l=p.MO,m=p.PR,v=p.SI,w="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],b=[];e.exports=u;var g=window.XMLHttpRequest=function(t){var e=new h(t);try{u.emit("new-xhr",[e],e),e.addEventListener(w,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(h,g),g.prototype=h.prototype,d.inPlace(g.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),l){var x=m&&m.resolve();if(!v&&!m){var E=1,P=document.createTextNode(E);new l(a).observe(P,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===w||a()})},{}],15:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=a.now()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var s=t.getResponseHeader("X-NewRelic-App-Data");s&&(e.cat=s.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return l(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(16),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,p=t("id"),h=t(19),l=t(18),m=window.XMLHttpRequest;a.features.xhr=!0,t(14),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,h&&(h>34||h<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=l(r);i&&(n.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var c=0;c<d;c++)e.addEventListener(u[c],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)})}},{}],16:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],17:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[f.now()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(20),c=t(21),s=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",h=p+"ixn-";a(d,function(t,e){u[e]=o(p+e,!0,"api")}),u.addPageAction=o(p+"addPageAction",!0),u.setCurrentRouteName=o(p+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var l=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(h+"tracer",[f.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return e.apply(this,arguments)}catch(t){throw s.emit("fn-err",[arguments,this,t],n),t}finally{s.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){l[e]=o(h+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],18:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],19:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],20:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],21:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],22:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],23:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(21),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){p([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o,e)}catch(a){p([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){p([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function p(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o,i){if(!p.aborted||i){t&&t(n,r,o);for(var a=e(o),c=l(n),s=c.length,f=0;f<s;f++)c[f].apply(a,r);var d=u[y[n]];return d&&d.push([b,n,r,a]),a}}function h(t,e){w[t]=l(t).concat(e)}function l(t){return w[t]||[]}function m(t){return d[t]=d[t]||o(n)}function v(t,e){f(t,function(t,n){e=e||"feature",y[n]=e,e in u||(u[e]=[])})}var w={},y={},b={on:h,emit:n,get:m,listeners:l,context:e,buffer:v,abort:a,aborted:!1};return b}function i(){return new r}function a(){(u.api||u.feature)&&(p.aborted=!0,u=p.backlog={})}var c="nr@context",s=t("gos"),f=t(20),u={},d={},p=e.exports=o();p.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!x++){var t=g.info=NREUM.info,e=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(y,function(e,n){t[e]||(t[e]=n)}),s("mark",["onload",a()+g.offset],null,"api");var n=p.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===p.readyState&&i()}function i(){s("mark",["domContent",a()+g.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(c=Math.max((new Date).getTime(),c))-g.offset}var c=(new Date).getTime(),s=t("handle"),f=t(20),u=t("ee"),d=window,p=d.document,h="addEventListener",l="attachEvent",m=d.XMLHttpRequest,v=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var w=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-spa-1071.min.js"},b=m&&v&&v[h]&&!/CriOS/.test(navigator.userAgent),g=e.exports={offset:c,now:a,origin:w,features:{},xhrWrappable:b};t(17),p[h]?(p[h]("DOMContentLoaded",i,!1),d[h]("load",r,!1)):(p[l]("onreadystatechange",o),d[l]("onload",r)),s("mark",["firstbyte",c],null,"api");var x=0,E=t(22)},{}]},{},["loader",2,15,5,3,4]);</script>
+<link rel="dns-prefetch" href="https://ajax.googleapis.com/">
+<link rel="dns-prefetch" href="https://www.googletagmanager.com/">
+<link rel="dns-prefetch" href="https://www.google-analytics.com/">
+<link rel="dns-prefetch" href="https://publicstaticcdn.tableausoftware.com/">
+<link rel="dns-prefetch" href="https://publicstatic.tableausoftware.com/">
+<!--[if IE 9]>
+<link rel="prefetch" href="//ajax.googleapis.com" />
+<link rel="prefetch" href="//www.googletagmanager.com" />
+<link rel="prefetch" href="//www.google-analytics.com" />
+<link rel="prefetch" href="//publicstaticcdn.tableausoftware.com" />
+<link rel="prefetch" href="//publicstatic.tableausoftware.com" />
+<![endif]-->
+<meta name="fragment" content="!">
+<meta name="description" ng-attr-content="{{metaTag.description}}" content="Savvy Insights - PowerUp AUTOMATION">
+<script>
+        var loc = window.location.href;
+        var dataLayer = window.dataLayer = window.dataLayer || [];
+        dataLayer.push({
+            'Application': 'Tableau Public',
+            'Realm': 'authors'
+        });
+      </script><meta name="robots" ng-attr-content="{{metaTag.indexable ? &quot;index&quot; : &quot;noindex&quot;}}" content="index">
+<link rel="shortcut icon" href="https://public.tableau.com/s/favicon.ico" type="image/vnd.microsoft.icon">
+<script>dataLayer = [{"language":"en","drupal.userStatus":"anonymous"}];</script>
+<link rel="profile" href="http://www.w3.org/1999/xhtml/vocab">
+<meta name="HandheldFriendly" content="true">
+<meta name="MobileOptimized" content="width">
+<meta http-equiv="cleartype" content="on">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Savvy Insights - PowerUp AUTOMATION - Swetha Srivarna S _ Tableau Public_files/css_aeqrifJtj-kEDkOQ3b-RAz8p7ww_v8_YJLOuuPIzQUE.css" media="all">
+
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="https://public.tableau.com/s/sites/default/files/css/css_O16fVmsjsCAPCIEj1yYG3AapPQidJioTWE7raxR_h-I.css" media="all" />
+<![endif]-->
+  <!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.1.0/es5-shim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+<style type="text/css"></style></head>
+<body class="html not-front not-logged-in page-profile page-profile-swethasrivarnas author-profile i18n-en section-profile">
+  <a href="https://public.tableau.com/profile/swetha.srivarna.s#main-content" class="element-invisible element-focusable">Skip to main content</a>
+
+<!-- before top -->
+  <!-- before page -->
+  <div class="l-page has-no-sidebars">
+  <div class="sticky-wrapper" style="height: 50px;"><header class="l-header at-top stuck" role="banner">
+    <div class="l-inner">
+      <a data-test-id="headerNavbar-mobileHamburger" id="hamburger" href="https://public.tableau.com/profile/swetha.srivarna.s#"><i class="icon-mobile-menu"></i></a>
+      <div class="l-branding">
+                  <a data-test-id="headerNavbar-home-link" href="https://public.tableau.com/en-us/s/" rel="home" class="site-logo">
+            <img src="./Savvy Insights - PowerUp AUTOMATION - Swetha Srivarna S _ Tableau Public_files/logo.png" alt="Home">
+          </a>
+        
+        
+              </div>
+
+        <div class="l-region l-region--navigation">
+    <nav id="block-menu-block-1" role="navigation" class="block block--menu-block block--menu-block-1">
+      
+  <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-217"><a href="https://public.tableau.com/en-us/s/gallery" class="gallery" data-test-id="headerNavbar-gallery-link">Gallery</a></li>
+<li class="leaf menu-mlid-502"><a href="https://public.tableau.com/en-us/s/authors" class="authors" data-test-id="headerNavbar-authors-link">Authors</a></li>
+<li class="leaf menu-mlid-338"><a href="https://public.tableau.com/en-us/s/blog" class="blog" data-test-id="headerNavbar-blog-link">Blog</a></li>
+<li class="leaf menu-mlid-385"><a href="https://public.tableau.com/en-us/s/resources" class="resource" data-test-id="headerNavbar-resources-link">Resources</a></li>
+<li class="leaf menu-mlid-789 nav__activity"><a href="https://public.tableau.com/en-us/s/activity" class="nav--activity" data-test-id="headerNavbar-activity-link">Activity</a></li>
+<li class="last leaf menu-mlid-387"><a href="http:/#" class="login-link" data-test-id="headerNavbar-signIn-link">Sign In</a></li>
+</ul></div>
+</nav>
+<div id="block-public-sitewide-ui-author-profile-dropdown" aria-haspopup="true" class="block block--public-sitewide-ui block--public-sitewide-ui-author-profile-dropdown l-login">
+        <div class="block__content">
+    <div class="l-avatar" ng-show="loginService.loginRetreived">
+  <img data-test-id="headerNavbar-authorAvatar" class="author-avatar" src="https://public.tableau.com/profile/swetha.srivarna.s">
+  <nav data-test-id="headerNavbar-authorDropdownMenu" class="author-menu">
+    <a data-test-id="headerNavbar-myProfile-link" class="workspace-link" href="https://public.tableau.com/profile/swetha.srivarna.s#">My Profile</a>
+    <a data-test-id="headerNavbar-settings-link" class="profile-settings" href="https://public.tableau.com/profile/swetha.srivarna.s#">Settings</a>
+    <a data-test-id="headerNavbar-downloadApp-link" class="product-download" href="https://public.tableau.com/en-us/s/download">Download the App</a>
+    <a data-test-id="headerNavbar-signOut-link" class="login-sign-out" href="https://public.tableau.com/profile/swetha.srivarna.s#" ng-click="sharedProfileUxStateService.logout()">Sign Out</a>
+    <div data-test-id="headerNavbar-spaceUsed" class="app-usage">
+      <span class="used">xx</span>MB of <span class="limit">10</span>GB used
+      <span class="indicator"><b class="progress"></b></span>
+    </div>
+  </nav>
+</div>
+  </div>
+</div>
+  </div>
+        <div class="l-region l-region--search">
+    <div id="block-public-sitewide-ui-search-button" class="block block--public-sitewide-ui block--public-sitewide-ui-search-button l-search">
+        <div class="block__content">
+    <div class="search-button-container">
+  <button class="search-button" data-test-id="headerNavbar-search-link">
+    <i class="icon-search"></i>
+  </button>
+</div>
+  </div>
+</div>
+<div id="block-public-sitewide-ui-search-overlay" class="block block--public-sitewide-ui block--public-sitewide-ui-search-overlay">
+        <div class="block__content">
+    <div id="modal-search-overlay" class="l-search-overlay">
+  <form id="search-overlay-form" class="search-overlay-form ng-pristine ng-valid">
+    <div class="search-overlay-input-field">
+      <button class="search-button" data-test-id="searchOverlay-search-link">
+        <i class="icon-search"></i>
+      </button>
+      <input class="form-text form-search" title="Enter the terms you wish to search for." placeholder="Search Tableau Public" type="search" id="search-overlay-input" name="search-overlay-input" value="" size="15" maxlength="128">
+    </div>
+  </form>
+</div>  </div>
+</div>
+  </div>
+    </div>
+  </header></div>
+
+  <section class="l-admin">
+    <div class="l-inner">
+            </div>
+  </section>
+
+  <div class="canvas-content">
+    <section class="l-main">
+      <div class="l-content l-inner" role="main">
+                        <a id="main-content"></a>
+                                                <!----><div class="vizhub-view" ng-view=""><!----><div ng-include="templateUrls.PUBLISH_TOAST"><!----></div><section class="viz-control-bar"><div class="l-inner"><!----><a class="author-return" ng-href="#!/" ng-if="!isModal" data-test-id="vizhome-ownProfileLink-link" bindonce="" href="https://public.tableau.com/profile/swetha.srivarna.s#!/"><!----> <!----><span ng-if="!sharedProfileUxStateService.canEdit()"><span bo-bind="workbookDetailsModel.authorName">Swetha Srivarna S</span> <span>- </span><span translate-string-contents="VIZHOME_OTHER_PROFILE_LINK_DESCRIPTION">Profile</span> </span><!----></a><!----><!----><!----><a href="https://public.tableau.com/profile/swetha.srivarna.s" class="clear tile tile--ui ui-settings" data-test-id="vizhome-unfavoriteWorkbook-link" ng-click="toggleFavorite();" use-qtip="" qtip-content="Add this viz to your favorites." ng-if="!isFavorited()" data-hasqtip="1"><i class="icon-favorite-empty"></i> <span translate-string-contents="FAVORITE_VIZHOME_BUTTON_LABEL">Favorite</span> </a><!----><!----><!----></div></section><section class="viz-embed"><figure class="tableau-viz"><iframe frameborder="0" id="viz_embedded_frame" ng-src="/views/SavvyInsights-PowerUpAUTOMATION/HomePage?%3Aembed=y&amp;%3AshowVizHome=no&amp;%3Adisplay_count=y&amp;%3Adisplay_static_image=y&amp;%3AbootstrapWhenNotified=true" data-load-viz-resize="" data-test-id="vizhome-viz-embed" allowfullscreen="" src="./Savvy Insights - PowerUp AUTOMATION - Swetha Srivarna S _ Tableau Public_files/HomePage.html"></iframe></figure></section><section class="viz-metadata clearfix" ng-class="{&#39;can-edit&#39; : sharedProfileUxStateService.canEdit()}"><div class="l-inner"><figcaption class="viz-workbook-metadata"><form id="workbookEditForm" name="workbookDetailsView.form" class="workbook-detail__form ng-pristine ng-invalid ng-invalid-required ng-valid-url ng-valid-pattern ng-valid-maxlength" novalidate="" ng-class="{&#39;is-editing&#39; : sharedProfileUxStateService.canEdit() &amp;&amp; sharedProfileUxStateService.isInEditMode}" ng-submit="workbookDetailsView.saveEdits()" data-test-id="vizhome-editDetails-form"><header class="form-header viz-workbook-metadata__head clearfix"><fieldset class="form-section form-section--inline"><h2 class="viz-title workbook-attribute" ng-bind="workbookDetailsModel.title" ng-click="workbookDetailsView.formAttributeEdit($event)" data-focus="workbook-title" data-test-id="vizhome-workbookTitle-header">Savvy Insights - PowerUp AUTOMATION</h2><!----><label class="form-label" translate-string-contents="VIZHOME_EDIT_WORKBOOK_DETAILS_FORM_TITLE_FIELD_LABEL">Title</label><div class="form-field"><input id="workbook-title" name="title" class="workbook-input viz-title ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required form-error" required="" ng-model="workbookToEdit.title" ng-class="{&#39;form-error&#39;: workbookDetailsView.form.title.$error.required}" data-test-id="title-input"> <span class="instruction" translate-string-contents="VIZHOME_EDIT_WORKBOOK_DETAILS_FORM_TITLE_FIELD_INSTRUCTION">Make sure your viz has a good title so people don't pass it by when they're browsing Tableau Public.</span> <small ng-show="workbookDetailsView.form.title.$error.required" class="input-error" translate-string-contents="VIZHOME_EDIT_WORKBOOK_DETAILS_FORM_TITLE_FIELD_REQUIRED" data-test-id="title-titleRequired-error">The workbook name is required</small></div></fieldset></header><h3 class="viz-author-view-info" ng-hide="sharedProfileUxStateService.inEditMode()"><span ng-bind="workbookDetailsModel.viewCount | translateNumber">126</span> <span translate-string-contents="WORKBOOK_VIEWS_COUNT_LABEL" translate-values="{&quot;COUNT&quot;: 126}">views</span> <span>| </span><!----><a ng-if="workbookDetailsModel.authorName" class="author-profile-link" ng-href="#!/" href="https://public.tableau.com/profile/swetha.srivarna.s#!/">Swetha Srivarna S</a><!----> <!----></h3><div class="clearfix"><fieldset class="form-section form-viz-permalink form-section--inline"><!----><label class="form-label" translate-string-contents="VIZHOME_EDIT_WORKBOOK_DETAILS_FORM_PERMALINK_FIELD_LABEL">Permalink</label><div class="form-field"><div class="clearfix"><input id="workbook-permalink" type="url" name="permalink" class="workbook-input viz-permalink ng-pristine ng-untouched ng-valid ng-empty ng-valid-url ng-valid-pattern" ng-model="workbookToEdit.permalink" ng-pattern="/^(https?|ftp):\/\/[^\s\/\$\.\?#]+\.[^\s@]+$/i" ng-class="{&#39;error&#39;: workbookDetailsView.form.permalink.$invalid}" placeholder="Add URL" data-test-id="permalink-input"> <span class="input-error ng-hide" ng-show="workbookDetailsView.form.permalink.$error.pattern" translate-string-contents="VIZHOME_EDIT_WORKBOOK_DETAILS_FORM_PERMALINK_FIELD_INVALID_PATTERN_ERROR" data-test-id="permalink-invalidLink-error">Please enter a valid URL</span> <button class="activity tile embed" ng-click="showEmbed = !showEmbed"><span ng-show="!showEmbed" translate-string-contents="VIZHOME_EDIT_WORKBOOK_DETAILS_FORM_SHOW_EMBED_BUTTON_LABEL">Get Embed Code</span> <span ng-show="showEmbed" translate-string-contents="VIZHOME_EDIT_WORKBOOK_DETAILS_FORM_HIDE_EMBED_BUTTON_LABEL" class="ng-hide">Hide Embed Code</span></button></div><span class="instruction" translate-string-contents="VIZHOME_EDIT_WORKBOOK_DETAILS_FORM_EMBED_INSTRUCTIONS">Plan on embedding your viz? This is an excellent way to drive traffic to your site.</span></div><div contenteditable="" id="viz-embed-code" class="viz-embed-code" ng-class="{&#39;expanded&#39; : showEmbed}"></div></fieldset><!----><fieldset class="form-section form-section--inline"><!----><label class="form-label" translate-string-contents="VIZHOME_EDIT_WORKBOOK_DETAILS_FORM_WORKBOOK_DESCRIPTION_FIELD_LABEL">Description</label><div class="form-field"><textarea id="workbook-description" name="description" class="workbook-input viz-description ng-pristine ng-untouched ng-valid ng-empty ng-valid-maxlength" placeholder="Add description" ng-model="workbookToEdit.description" ng-maxlength="150" ng-class="{&#39;error&#39;: workbookDetailsView.form.description.$error.maxlength}" data-test-id="description-input"></textarea><span class="input-error ng-hide" ng-show="workbookDetailsView.form.description.$error.maxlength" translate-string-contents="VIZHOME_EDIT_WORKBOOK_DETAILS_FORM_WORKBOOK_DESCRIPTION_FIELD_MAXLENGTH_ERROR" data-test-id="description-maxLength-error">Your description must be 150 characters or less.</span> <span class="instruction" translate-string-contents="VIZHOME_EDIT_WORKBOOK_DETAILS_FORM_WORKBOOK_DESCRIPTION_FIELD_INSTRUCTION">A great description can really improve your search results ranking.</span></div></fieldset></div><fieldset class="form-section form-section--checkbox form-section--inline"><label class="form-label" translate-string-contents="VIZHOME_EDIT_WORKBOOK_DETAILS_FORM_TOOLBAR_SETTINGS_TITLE">Toolbar Settings</label><div class="form-fields"><div class="form-type-checkbox"><input id="viz-show-toolbar" type="checkbox" ng-model="workbookToEdit.showToolbar" data-test-id="showToolbar-input" class="ng-pristine ng-untouched ng-valid ng-empty"><label for="viz-show-toolbar" class="form-label--inline"><span translate-string-contents="VIZHOME_EDIT_WORKBOOK_DETAILS_FORM_TOOLBAR_SETTINGS_SHOW_VIEW_CONTROLS_LABEL">Show view controls</span> <em translate-string-contents="VIZHOME_EDIT_WORKBOOK_DETAILS_FORM_TOOLBAR_SETTINGS_SHOW_VIEW_CONTROLS_DESCRIPTION">Undo, Redo, Revert</em></label></div><!----><div class="form-type-checkbox"><input id="viz-show-byline" type="checkbox" ng-model="workbookToEdit.showByline" data-test-id="showByline-input" class="ng-pristine ng-untouched ng-valid ng-empty"><label for="viz-show-byline" class="form-label--inline" translate-string-contents="VIZHOME_EDIT_WORKBOOK_DETAILS_FORM_TOOLBAR_SETTINGS_SHOW_AUTHOR_PROFILE_LINK_LABEL">Show author profile link</label></div><!----><!----></div></fieldset><!----><fieldset class="form-section form-section--checkbox form-section--inline"><label class="form-label" translate-string-contents="VIZHOME_EDIT_WORKBOOK_DETAILS_FORM_OTHER_SETTINGS_TITLE">Other Settings</label><div class="form-fields"><div class="form-type-checkbox"><input id="viz-show-tabs" type="checkbox" class="workbook-display-option ng-pristine ng-untouched ng-valid ng-empty" ng-model="workbookToEdit.showTabs" data-test-id="showTabs-input"><label for="viz-show-tabs" class="form-label--inline" translate-string-contents="VIZHOME_EDIT_WORKBOOK_DETAILS_FORM_SHOW_SHEETS_AS_TABS_LABEL">Show workbook sheets as tabs</label></div></div></fieldset><!----></form><div class="viz-workbook__details"><header class="viz-workbook-details__header"><h2 translate-string-contents="VIZHOME_SHOW_MORE_WORKBOOK_DETAILS">More Detail</h2></header><div class="basic"><dl class="workbook-attributes"><div class="attribute-row clearfix"><dt class="label" translate-string-contents="VIZHOME_VIEW_WORKBOOK_DETAILS_LAST_MODIFIED_DATE_LABEL">Last Saved:</dt><dd class="value"><span ng-bind="workbook.lastPublishDate | translateDate">Aug 28, 2018</span></dd></div><div class="attribute-row clearfix"><dt class="label" translate-string-contents="VIZHOME_VIEW_WORKBOOK_DETAILS_TITLE">Workbook Details:</dt><dd class="value"><!----><span ng-if="workbookDetailsModel.worksheets.length &gt; 0" translate-string-contents="VIZHOME_VIEW_WORKBOOK_DETAILS_SHEET_COUNT_LABEL" translate-values="{&quot;SHEETSCOUNT&quot;: 4}">4 Sheets</span><!----></dd></div><div class="attribute-row clearfix"><dt class="label" translate-string-contents="VIZHOME_VIEW_WORKBOOK_DETAILS_ORIGINAL_AUTHOR_LABEL">Original Author:</dt><dd class="value"><!----><!----> Swetha Srivarna S <!----></dd></div></dl></div><div class="extended"><dl class="workbook-attributes"><div class="attribute-row clearfix ng-hide" ng-show="getShowWorkbookAutoSyncSectionInMoreDetails()"><dt class="label" translate-string-contents="VIZHOME_VIEW_WORKBOOK_DETAILS_GOOGLE_SHEETS_LABEL">Google Sheets:</dt><dd class="value"><span><span translate-string-contents="VIZHOME_VIEW_WORKBOOK_DETAILS_GOOGLE_SHEETS_LAST_UPDATED_LABEL">Data last updated at </span> <span>Aug 28, 2018, 8:00 PM</span> </span><button class="viz-refresh-extract" type="submit" ng-click="refreshWorkbook()" ng-disabled="disableRequestButton()" data-test-id="vizhome-refreshWorkbook-button">Request Update</button><div class="viz-refresh-error ng-hide" ng-show="hasAutoSyncError()" data-test-id="vizhome-refreshWorkbook-error"><span translate-string-contents="VIZHOME_VIEW_WORKBOOK_DETAILS_GOOGLE_SHEETS_SYNC_ERROR">There was a problem trying to update the data from Google Sheets.</span><br><span translate-string-contents="VIZHOME_VIEW_WORKBOOK_DETAILS_GOOGLE_SHEETS_SYNC_ERROR_INSTRUCTIONS">Request an update to see if it fixes the problem or save your workbook again.</span></div></dd></div><div class="attribute-row clearfix" ng-show="workbookDetailsModel.worksheets.length &gt; 0"><dt class="label" use-qtip="" qtip-content="We automatically pull what we can from your data to help search engines find your viz." translate-string-contents="VIZHOME_VIEW_WORKBOOK_DETAILS_METADATA_LABEL" data-test-id="vizhome-metadata-label" data-hasqtip="0">Metadata:</dt><dd class="value"><ul class="viz-workbook-sheets" data-test-id="vizhome-metadata-sheetTitles"><!----><li ng-repeat="worksheet in workbookDetailsModel.worksheets"><a ng-href="#!/vizhome/SavvyInsights-PowerUpAUTOMATION/HomePage" href="https://public.tableau.com/profile/swetha.srivarna.s#!/vizhome/SavvyInsights-PowerUpAUTOMATION/HomePage">Home Page </a></li><!----><li ng-repeat="worksheet in workbookDetailsModel.worksheets"><a ng-href="#!/vizhome/SavvyInsights-PowerUpAUTOMATION/LogSummary" href="https://public.tableau.com/profile/swetha.srivarna.s#!/vizhome/SavvyInsights-PowerUpAUTOMATION/LogSummary">Log Summary</a></li><!----><li ng-repeat="worksheet in workbookDetailsModel.worksheets"><a ng-href="#!/vizhome/SavvyInsights-PowerUpAUTOMATION/LogAnalytics" href="https://public.tableau.com/profile/swetha.srivarna.s#!/vizhome/SavvyInsights-PowerUpAUTOMATION/LogAnalytics">Log Analytics</a></li><!----><li ng-repeat="worksheet in workbookDetailsModel.worksheets"><a ng-href="#!/vizhome/SavvyInsights-PowerUpAUTOMATION/FailureAnalytics" href="https://public.tableau.com/profile/swetha.srivarna.s#!/vizhome/SavvyInsights-PowerUpAUTOMATION/FailureAnalytics">Failure Analytics</a></li><!----></ul></dd></div></dl></div></div></figcaption></div></section></div>              </div>
+
+          </section>
+
+    <footer class="l-footer" role="contentinfo">
+      <div class="l-inner">
+          <div class="l-region l-region--footer">
+    <div id="block-nodeblock-7" class="block block--nodeblock block--nodeblock-7">
+        <div class="block__content">
+    <div id="node-7" class="node node--block internal-node node--full node--block--full clearfix" role="article">
+
+        
+  
+  <div class="content">
+    
+  <div class="field--body">
+    <div class="about">
+  <a data-test-id="footerNavbar-tableauHome-link" href="http://www.tableau.com/">
+    <span class="defer-image-load" data-defer-src="//cdns.tblsft.com/sites/default/files/media/tableau-logo-transparent-fff.png" data-defer-alt="Tableau Software"><img src="./Savvy Insights - PowerUp AUTOMATION - Swetha Srivarna S _ Tableau Public_files/tableau-logo-transparent-fff.png"></span>
+  </a>
+  <p>© 2018 Tableau Software, Incorporated and its licensors.<br>All Rights Reserved</p>
+</div>
+
+<div class="navigation">
+  <nav class="footer-navigation">
+   <h3 class="footer-navigation__heading">Products</h3>
+    <a data-test-id="footerNavbar-productTableauDesktop-link" target="_blank" href="http://www.tableau.com/products/desktop">Tableau Desktop</a>
+    <a data-test-id="footerNavbar-productTableauServer-link" target="_blank" href="http://www.tableau.com/products/server">Tableau Server</a>
+    <a data-test-id="footerNavbar-productTableauOnline-link" target="_blank" href="http://www.tableau.com/products/online">Tableau Online</a>
+    <a data-test-id="footerNavbar-productTableauPrep-link" target="_blank" href="http://www.tableau.com/products/prep">Tableau Prep</a>
+    <a data-test-id="footerNavbar-productTableauPublic-link" href="https://public.tableau.com/en-us/s/download">Tableau Public <span class="badge orange"><em>Free</em></span></a>
+    <a data-test-id="footerNavbar-productTableauReader-link" target="_blank" href="http://www.tableau.com/products/reader">Tableau Reader   <span class="badge orange"><em>Free</em></span></a>
+  </nav>
+  <nav class="footer-navigation">
+   <h3 class="footer-navigation__heading">Legal</h3>
+    <a data-test-id="footerNavbar-legalPrivacyPolicy-link" target="_blank" href="https://www.tableau.com/privacy">Privacy Policy</a>
+    <a data-test-id="footerNavbar-legalDataPolicy-link" href="https://public.tableau.com/en-us/s/data-policy">Data Policy</a>
+    <a data-test-id="footerNavbar-legalTermsOfService-link" target="_blank" href="http://www.tableau.com/tos">Terms of Service</a>
+    <a data-test-id="footerNavbar-legalPatents-link" target="_blank" href="http://www.tableau.com/ip">Patents &amp; IP</a>
+  </nav>
+  <nav class="footer-navigation">
+    <h3 class="footer-navigation__heading">About</h3>
+    <a data-test-id="footerNavbar-aboutCurrenStatus-link" target="_blank" href="https://trust.tableau.com/status/tableau-public">Current Status</a>
+    <a data-test-id="footerNavbar-aboutFAQ-link" href="https://public.tableau.com/s/faq">FAQ</a>
+    <a data-test-id="footerNavbar-aboutCareers-link" target="_blank" href="http://careers.tableau.com/">Careers</a>
+    <a data-test-id="footerNavbar-aboutContact-link" href="https://public.tableau.com/en-us/s/contact-us">Contact Us</a>
+  </nav>
+</div>
+
+<div class="social">
+    <a data-test-id="footerNavbar-socialTwitter-link" href="https://www.twitter.com/tableaupublic" class="twitter" target="_blank"><i class="icon-social-twitter"></i></a>
+    <a data-test-id="footerNavbar-socialFacebook-link" href="https://www.facebook.com/TableauPublic" class="facebook" target="_blank"><i class="icon-social-facebook"></i></a>
+    <a data-test-id="footerNavbar-socialLinkedIn-link" href="https://www.linkedin.com/company/tableau-software" class="linkedin" target="_blank"><i class="icon-social-linkedin-negative"></i></a>
+    <a data-test-id="footerNavbar-socialGooglePlus-link" href="https://plus.google.com/+tableausoftware" class="gplus" target="_blank"><i class="icon-social-gplus"></i></a>
+</div>
+
+<style>
+#workbookEditForm .tile.embed { display:none; }
+#workbookEditForm #viz-embed-code { display:none; }
+.gss-result .gss-info { display:none; }
+
+.l-overview .page-title {
+  display: inline-block;
+}
+.l-overview .page-title__desc {
+  display: inline-block;
+  margin-bottom: 0;
+}
+.l-overview .page-title__desc + .sub-title {
+  display: block;
+}
+</style>  </div>
+  </div>
+
+  
+  
+</div>
+  </div>
+</div>
+<div id="block-locale-language" role="complementary" class="block block--locale block--locale-language">
+        <div class="block__content">
+    <div data-test-id="footerNavbar-languageSelector" class="global-footer__language" aria-haspopup="true"><a id="lang-dropdown" class="anchor-link"></a><span class="selected">English</span><ul class="language-switcher-locale-url global-footer__language-options"><li class="zh-hans first"><a href="https://public.tableau.com/profile/swetha.srivarna.s" class="language-link" xml:lang="zh-hans" data-language-prefix="zh-cn">简体中文</a></li>
+<li class="en active"><a href="https://public.tableau.com/profile/swetha.srivarna.s" class="language-link active" xml:lang="en" data-language-prefix="en-us">English</a></li>
+<li class="fr"><a href="https://public.tableau.com/profile/swetha.srivarna.s" class="language-link" xml:lang="fr" data-language-prefix="fr-fr">Français</a></li>
+<li class="de"><a href="https://public.tableau.com/profile/swetha.srivarna.s" class="language-link" xml:lang="de" data-language-prefix="de-de">Deutsch</a></li>
+<li class="ja"><a href="https://public.tableau.com/profile/swetha.srivarna.s" class="language-link" xml:lang="ja" data-language-prefix="ja-jp">日本語</a></li>
+<li class="ko"><a href="https://public.tableau.com/profile/swetha.srivarna.s" class="language-link" xml:lang="ko" data-language-prefix="ko-kr">한국어</a></li>
+<li class="pt-br"><a href="https://public.tableau.com/profile/swetha.srivarna.s" class="language-link" xml:lang="pt-br" data-language-prefix="pt-br">Português</a></li>
+<li class="es last"><a href="https://public.tableau.com/profile/swetha.srivarna.s" class="language-link" xml:lang="es" data-language-prefix="es-es">Español</a></li>
+</ul></div>  </div>
+</div>
+<div id="block-public-sitewide-ui-modal-signin" class="block block--public-sitewide-ui block--public-sitewide-ui-modal-signin">
+        <div class="block__content">
+    <div class="modal-tableau-dialogs is-hidden">
+  <section class="form-server-login modal-login" id="modal-server-login" data-test-id="signinModal" tabindex="-1" role="dialog" aria-labelledby="modal-label" aria-hidden="true">
+    <img class="logo-login" src="./Savvy Insights - PowerUp AUTOMATION - Swetha Srivarna S _ Tableau Public_files/public-logo-transparent-666.png">
+    <div class="modal-inner">
+      <div class="modal-content">
+        <form id="login-form" action="https://public.tableau.com/auth?destination=/" method="post" novalidate="novalidate" class="ng-pristine ng-valid">
+          <div class="modal-login__subheading-container" data-test-id="siginModal-subheading">
+            <!-- This div is to hold error messages in login modal like "Please activate your account..." -->
+          </div>
+          <div class="form-section">
+            <div class="form-field">
+              <label class="form-field__label" for="username">Email</label>
+              <input id="login-email" name="login-email" type="email" class="input-text" placeholder="Email" data-test-id="signinModal-email-input">
+            </div>
+          </div>
+
+          <div class="form-section form-password">
+            <div class="form-field">
+              <label class="form-field__label" for="password">Password</label>
+              <input id="login-password" name="login-password" type="password" class="input-text" placeholder="Password" data-test-id="signinModal-password-input">
+            </div>
+          </div>
+
+          <div class="keep-me-signed-in-section">
+            <input type="checkbox" id="keep-me-signed-in" data-test-id="signinModal-keepMeSignedIn-input">
+            <label for="keep-me-signed-in">Keep me signed in</label>
+          </div>
+
+          <div class="error-section" data-test-id="signinModal-error-section">
+          </div>
+
+          <div class="form-actions">
+            <input id="signin-submit" type="submit" value="Sign In" class="action tile tile--l" data-test-id="signinModal-submit-button">
+            <div class="form-actions-footer">
+              <a class="password-remind instruction" href="https://public.tableau.com/profile/swetha.srivarna.s#" data-test-id="signinModal-forgotPassword-link">Forgot your password?</a>
+            </div>
+          </div>
+        </form>
+      </div>
+      <footer class="login-additional">
+        Don't have a profile yet?<br>
+        <strong><a id="account-signup" href="https://public.tableau.com/en-us/auth/signup" data-test-id="signinModal-signup-link">Create one now for free</a></strong>
+      </footer>
+    </div>
+  </section>
+</div>
+  </div>
+</div>
+<div id="block-public-sitewide-ui-modal-signup" class="block block--public-sitewide-ui block--public-sitewide-ui-modal-signup">
+        <div class="block__content">
+    <div class="modal-tableau-dialogs is-hidden">
+  <section class="account-signup modal-signup" id="modal-account-signup" data-test-id="signupModal" tabindex="-1" role="dialog" aria-labelledby="modal-label" aria-hidden="true">
+    <h2>Create a Profile</h2>
+    <div class="modal-inner">
+      <form id="form--account-signup" method="post" novalidate="novalidate" class="ng-pristine ng-valid">
+        <div class="form-section" data-test-id="signupModal-realName-section">
+          <div class="form-field">
+            <label class="form-field__label" for="signup-realname">Name</label>
+            <input name="signup-realname" id="signup-realname" type="text" class="input-text" placeholder="Name" data-test-id="signupModal-realName-input">
+            <span class="instruction">Real names are important to us and build a sense of community.</span>
+          </div>
+        </div>
+
+        <div class="form-section form-signup-email" data-test-id="signupModal-email-section">
+          <div class="form-field">
+            <label class="form-field__label" for="signup-email">Email</label>
+            <input name="signup-email" id="signup-email" type="email" class="input-text" placeholder="Email" data-test-id="signupModal-email-input">
+            <span class="instruction">Use your email to sign in to Tableau Public. Nobody sees this but us. We promise <em><strong>never</strong></em> to rent, sell, or barter your personal information to anyone.</span>
+            <label class="email-unavailable custom-error">This email is unavailable.</label>
+          </div>
+        </div>
+
+        <div class="form-section" data-test-id="signupModal-password-section">
+          <div class="form-field">
+            <label class="form-field__label" for="signup-password">Password</label>
+            <input name="signup-password" id="signup-password" type="password" class="input-text" placeholder="Password" data-test-id="signupModal-password-input">
+            <span class="instruction">Must be a minimum of 8 characters and contain alphabetic, numeric and special characters.</span>
+          </div>
+        </div>
+
+        <div class="form-section" data-test-id="signupModal-confirmPassword-section">
+          <div class="form-field">
+            <label class="form-field__label" for="signup-password-confirm">Confirm</label>
+            <input name="signup-password-confirm" id="signup-password-confirm" type="password" class="input-text" placeholder="Confirm" data-test-id="signupModal-confirmPassword-input">
+          </div>
+        </div>
+
+        <div class="form-section form-signup-legal" data-test-id="signupModal-acceptTOS-section">
+          <label class="form-section__header">Review the Legal</label>
+          <div class="form-field">
+            <input name="signup-legal" id="signup-legal" type="checkbox" data-test-id="signupModal-acceptTOS-input">
+            <label for="signup-legal">I've read and agree to the <a target="_blank" href="https://www.tableau.com/en-us/tos">Terms of Service</a></label>
+          </div>
+        </div>
+
+        <div class="form-actions">
+          <div class="form-submit">
+            <input id="signup-submit" type="submit" value="Create My Profile" class="confirm tile" disabled="disabled" data-test-id="signupModal-submit-button">
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="form__feedback success" data-test-id="signupModal-submit-successMessage">Success! Check for an email in your inbox for the activation code.</div>
+    <div class="form__feedback error" data-test-id="signupModal-submit-errorMessage">Something went wrong.</div>
+  </section>
+</div>
+  </div>
+</div>
+<div id="block-public-sitewide-ui-modal-user-settings" class="block block--public-sitewide-ui block--public-sitewide-ui-modal-user-settings">
+        <div class="block__content">
+    <div class="modal-tableau-dialogs is-hidden">
+  <div id="modal-user-settings" class="adhoc-tabs user-settings" data-test-id="userSettingsModal">
+    <div class="modal-nav-header">
+      <h2>Settings</h2>
+      <div class="tab-nav">
+        <a class="tab active" href="https://public.tableau.com/profile/swetha.srivarna.s#settings-tab-1" data-test-id="nav-defaults-tab">
+          Defaults
+        </a>
+        <a class="tab" href="https://public.tableau.com/profile/swetha.srivarna.s#settings-tab-2" data-test-id="nav-emailAndPassword-tab">
+          Email &amp; Password
+        </a>
+        <a class="tab" href="https://public.tableau.com/profile/swetha.srivarna.s#settings-tab-3" data-test-id="nav-profileURL-tab">
+          Profile URL
+        </a>
+        <a class="tab" href="https://public.tableau.com/profile/swetha.srivarna.s#settings-tab-4" data-test-id="nav-accountManagement-tab">
+          Account Management
+        </a>
+      </div>
+    </div>
+    <div class="modal-inner">
+      <div id="settings-tab-1" class="tab-content active" data-test-id="defaults-tab">
+        <form id="default-settings-form" class="form-settings--default ng-pristine ng-valid" action="https://public.tableau.com/profile/swetha.srivarna.s" method="post">
+          <fieldset class="form-section user-default-settings">
+            <h3 class="for-section__head">Viz Toolbar</h3>
+              <div class="form-type-checkbox" data-premium="canEditShowShareOptions">
+                <input type="checkbox" name="viz-show-share" id="viz-show-share" data-test-id="showShare-input">
+                <label for="viz-show-share">Show share controls</label>
+              </div>
+              <div class="form-type-checkbox" data-premium="canEditAllowDataAccess">
+                <input type="checkbox" name="viz-show-download" id="viz-show-download" data-test-id="showDownload-input">
+                <label for="viz-show-download">Allow viz data to be downloaded (workbook, crosstab, data)</label>
+              </div>
+              <div class="form-type-checkbox" data-premium="canEditShowWatermark">
+                <input type="checkbox" name="viz-show-tableau-logo" id="viz-show-tableau-logo" data-test-id="showTableauLogo-input">
+                <label for="viz-show-tableau-logo">Show Tableau Logo</label>
+              </div>
+          </fieldset>
+          <fieldset class="form-section">
+            <h3 class="for-section__head">When Saving...</h3>
+            <input type="checkbox" name="viz-hide-viz-default" id="viz-hide-viz-default" data-test-id="hideVizDefault-input">
+            <label for="viz-hide-viz-default">Set my vizzes to hidden. Note that this will not change the visibility of previously published vizzes.</label>
+          </fieldset>
+          <div class="form-actions">
+            <button type="submit" class="confirm tile" data-test-id="submit-button">Save Changes</button>
+          </div>
+        </form>
+      </div>
+
+      <div id="settings-tab-2" class="tab-content" data-test-id="emailAndPassword-tab">
+        <form id="form--change-email" class="form-change-email-password ng-pristine ng-valid" action="https://public.tableau.com/profile/swetha.srivarna.s" method="post" data-test-id="changeEmail-form" novalidate="novalidate">
+          <h3 class="for-section__head">Email</h3>
+          <fieldset class="form-section email-old">
+            <div class="form-field">
+              <label class="form-field__label" for="email-old">Current Email</label>
+              <input type="email" size="26" name="email-old" id="email-old" data-test-id="currentEmail-input" class="input-text" placeholder="Current Email">
+            </div>
+          </fieldset>
+          <fieldset class="form-section password-current">
+            <div class="form-field">
+              <label class="form-field__label" for="password-current">Current Password</label>
+              <input type="password" size="26" name="password-current" id="password-current" data-test-id="currentPassword-input" class="input-text" placeholder="Current Password"><br>
+            </div>
+          </fieldset>
+
+          <fieldset class="form-section email-new" data-test-id="newEmail-section">
+            <div class="form-field">
+              <label class="form-field__label" for="email-new">New Email</label>
+              <input type="email" size="26" name="email-new" id="email-new" data-test-id="newEmail-input" class="input-text" placeholder="New Email">
+            </div>
+          </fieldset>
+          <fieldset class="form-section email-new-confirm" data-test-id="newEmailConfirm-section">
+            <div class="form-field">
+              <label class="form-field__label" for="email-new-confirm">Confirm</label>
+              <input type="email" size="26" name="email-new-confirm" id="email-new-confirm" data-test-id="newEmailConfirm-input" class="input-text" placeholder="Confirm">
+            </div>
+          </fieldset>
+
+          <div class="form-actions">
+            <input type="submit" class="confirm tile" value="Change Email" data-test-id="submit-button">
+          </div>
+        </form>
+
+        <form id="password-update-form" class="form-settings--password form-change-email-password ng-pristine ng-valid" action="https://public.tableau.com/profile/swetha.srivarna.s" method="post" data-test-id="changePassword-form" novalidate="novalidate">
+          <h3 class="for-section__head">Password</h3>
+
+          <fieldset class="form-section password-old">
+            <div class="form-field">
+              <label class="form-field__label" for="old-password">Current Password</label>
+              <input type="password" size="32" name="old-password" id="old-password" data-test-id="currentPassword-input" class="input-text" placeholder="Current Password"><br>
+              <span class="instruction"><a class="password-remind" href="https://public.tableau.com/profile/swetha.srivarna.s#">Forgot your password?</a></span>
+            </div>
+          </fieldset>
+
+          <fieldset class="form-section password-new" data-test-id="newPassword-section">
+            <div class="form-field">
+              <label class="form-field__label" for="new-password">New Password</label>
+              <input type="password" size="32" name="new-password" id="new-password" data-test-id="newPassword-input" class="input-text" placeholder="New Password"><br>
+              <span class="instruction">Must be a minimum of 8 characters and contain alphabetic, numeric and special characters.</span>
+            </div>
+          </fieldset>
+          <fieldset class="form-section password-confirm" data-test-id="newPasswordConfirm-section">
+            <div class="form-field">
+              <label class="form-field__label" for="new-password-confirm">Confirm</label>
+              <input type="password" size="32" name="new-password-confirm" id="new-password-confirm" data-test-id="newPasswordConfirm-input" class="input-text" placeholder="Confirm">
+            </div>
+          </fieldset>
+
+          <div class="form-actions">
+            <input type="submit" class="confirm tile" value="Change Password" data-test-id="submit-button">
+          </div>
+        </form>
+      </div>
+
+      <div id="settings-tab-3" class="tab-content account-manage" data-test-id="profileURL-tab">
+        <p>You can customize your profile URL. It must be between 4-64 characters and only use lowercase letters, numbers, and periods. So long as it's not taken, it's yours.</p>
+
+        <form id="form--profile-url" class="form-settings--profile-url ng-pristine ng-valid" action="https://public.tableau.com/profile/swetha.srivarna.s" method="post" novalidate="novalidate">
+          <fieldset class="form-section form-section--inline profile-url">
+            <div class="form-field">
+              https://public.tableau.com/profile/
+              <a class="profile-url--current" data-test-id="currentProfileURL">current.profile.name</a>
+              <input name="profile-url" type="text" size="20" id="profile-url" class="is-hidden" data-test-id="profileURL-input">
+              <a href="https://public.tableau.com/profile/swetha.srivarna.s#edit-profile-url" class="tile tile--ui profile-url-edit" data-test-id="profileURL-edit-toggle" data-test-is-editing="false"><i class="icon-edit-pencil"></i><span class="tile__text">Edit</span></a>
+            </div>
+          </fieldset>
+          <div class="form-actions">
+            <input type="submit" class="confirm tile" value="Change Profile URL" disabled="" data-test-id="submit-button">
+          </div>
+        </form>
+      </div>
+
+      <div id="settings-tab-4" class="tab-content account-manage" data-test-id="accountManagement-tab">
+        <div class="form-section">
+          <h3>Available Space</h3>
+          <div class="app-usage grid-8">
+            <span class="indicator"><b class="progress"></b></span>
+            <span data-test-id="appDataUsage-span"><span class="used">xx</span>MB of <span class="limit">10</span>GB used</span>
+          </div>
+        </div>
+
+        <div class="form-section account-sign-out-all">
+          <h3>Sign Out of All Sessions</h3>
+          <div class="grid-8">
+            <span class="description">If you chose the 'Keep Me Signed In' option during Sign In, you may be Signed In to multiple devices or locations. You can Sign Out of all sessions here.</span>
+          </div>
+          <div class="grid-4 omega">
+            <a class="tile" href="https://public.tableau.com/profile/swetha.srivarna.s#" data-test-id="signOutAll-button">Sign Out of All Sessions</a>
+          </div>
+          <div class="grid-12 error-block"></div>
+        </div>
+
+        <div class="form-section">
+          <h3>Delete Account</h3>
+          <div class="account-delete clearfix">
+            <div class="grid-8">
+              <div class="account-delete__message">
+                <span class="description">We think Public is better with you. But if you must go, we'll make it as painless as possible.</span>
+                <strong class="warning-final">This means the immediate and permanent deletion of your profile data and vizzes. Any links/embeds will cease to work when you delete your account.</strong>
+              </div>
+            </div>
+            <div class="grid-4 omega">
+              <a tabindex="-1" href="https://public.tableau.com/profile/swetha.srivarna.s#" class="attention tile account-delete" data-test-id="deleteAccount-button">
+                Delete My Account
+              </a>
+              <form class="account-delete-confirm ng-pristine ng-valid" data-test-id="deleteAccountConfirm-form" novalidate="novalidate">
+                <fieldset class="form-section account-delete-password">
+                  <div class="form-field">
+                    <label class="form-field__label" for="account-delete-password">Password</label>
+                    <input name="account-delete-password" class="input-text" type="password" size="20" id="account-delete-password" data-test-id="password-input" placeholder="Password">
+                  </div>
+                </fieldset>
+                <fieldset class="form-section account-delete-password-confirm">
+                  <div class="form-field">
+                    <label class="form-field__label" for="account-delete-password-confirm">Confirm</label>
+                    <input name="account-delete-password-confirm" class="input-text" type="password" size="20" id="account-delete-password-confirm" data-test-id="passwordConfirm-input" placeholder="Confirm">
+                  </div>
+                </fieldset>
+                <div class="form-actions">
+                  <input type="submit" class="attention tile" value="Confirm Deletion" data-test-id="submit-button">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+<div id="block-public-sitewide-ui-modal-password-recover" class="block block--public-sitewide-ui block--public-sitewide-ui-modal-password-recover">
+        <div class="block__content">
+    <div class="modal-tableau-dialogs is-hidden">
+  <section class="password-recover" id="modal-password-recover" data-test-id="recoverPasswordModal" tabindex="-1" role="dialog" aria-labelledby="modal-label" aria-hidden="true">
+    <h2>Password Reset</h2>
+    <div class="modal-inner">
+      <p>Enter the email associated with your account and we'll send you a link to reset your password.</p>
+
+      <form id="form--password-recover" method="post" novalidate="novalidate" class="ng-pristine ng-valid">
+        <div class="form-section">
+          <div class="form-field">
+            <label class="form-field__label" for="recover-email">Email</label>
+            <input required="" type="email" name="recover-email" placeholder="Email" class="input-text" id="recover-email" data-test-id="passwordRecoverModal-email-input">
+          </div>
+        </div>
+
+        <div class="form-actions">
+          <input id="recover-submit" type="submit" value="Send Email" class="confirm tile" data-test-id="passwordRecoverModal-submit-button">
+        </div>
+      </form>
+    </div>
+  </section>
+</div>
+  </div>
+</div>
+<div id="block-public-sitewide-ui-modal-password-recover-confirm" class="block block--public-sitewide-ui block--public-sitewide-ui-modal-password-recover-confirm">
+        <div class="block__content">
+    <div class="modal-tableau-dialogs is-hidden">
+  <section class="password-recover-set" id="modal-password-recover-set" data-test-id="recoverPasswordConfirmModal" tabindex="-1" role="dialog" aria-labelledby="modal-label" aria-hidden="true">
+    <h2>Password Reset</h2>
+    <div class="modal-inner">
+      <form id="form--password-recover-set" method="post" novalidate="novalidate" class="ng-pristine ng-valid">
+        <div class="form-section">
+          <div class="form-field">
+            <label class="form-field__label" for="recover-password">Password</label>
+            <input required="" type="password" name="recover-password" id="recover-password" class="input-text" placeholder="Password" data-test-id="recoverPasswordConfirmModal-password-input">
+          </div>
+        </div>
+
+        <div class="form-section form-recover-password-confirm">
+          <div class="form-field">
+            <label class="form-field__label" for="recover-password-confirm">Confirm</label>
+            <input type="password" name="recover-password-confirm" id="recover-password-confirm" class="input-text" placeholder="Confirm" data-test-id="recoverPasswordConfirmModal-confirmPassword-input">
+          </div>
+        </div>
+
+        <!-- This is to hold the reset password code to submit/validate reset password flow -->
+        <div class="form-section form-recover-password-recover-code">
+          <label for="recover-code">Recover code</label>
+          <div class="form-field">
+            <input type="text" name="recover-code" id="recover-code" data-test-id="recoverPasswordConfirmModal-recoverCode-input">
+          </div>
+        </div>
+
+        <div class="form-actions">
+          <input id="recover-confirm-submit" type="submit" value="Reset Password" class="confirm tile" data-test-id="recoverPasswordConfirmModal-submit-button">
+        </div>
+      </form>
+    </div>
+  </section>
+</div>
+  </div>
+</div>
+<div id="block-public-sitewide-ui-modal-subscribe" class="block block--public-sitewide-ui block--public-sitewide-ui-modal-subscribe">
+        <div class="block__content">
+    <div class="modal-tableau-dialogs is-hidden">
+  <section class="modal-subscribe" id="modal-subscribe" data-test-id="modal-subscribe" tabindex="-1" role="dialog" aria-labelledby="modal-label" aria-hidden="true">
+    <h2>Subscribe to Viz of the Day</h2>
+<div class="modal-inner">
+      <p>See the best of Tableau Public. Sign up to receive the Viz of the Day directly in your inbox.</p>
+
+      <form id="form--subscribe" method="post" class="ng-pristine ng-valid">
+        <div class="form-section">
+          <div class="form-field">
+            <label class="form-field__label" for="subscribe-first-name">First Name</label>
+            <input id="subscribe-first-name" name="subscribe-first-name" type="text" class="input-text" placeholder="First Name" data-test-id="subscribeModal-first-name-input">
+          </div>
+        </div>
+        <div class="form-section">
+          <div class="form-field">
+            <label class="form-field__label" for="subscribe-last-name">Last Name</label>
+            <input id="subscribe-last-name" name="subscribe-last-name" type="text" class="input-text" placeholder="Last Name" data-test-id="subscribeModal-last-name-input">
+          </div>
+        </div>
+        <div class="form-section">
+          <div class="form-field">
+            <label class="form-field__label" for="subscribe-email">Email</label>
+            <input type="email" name="subscribe-email" placeholder="Email" class="input-text" id="subscribe-email" data-test-id="subscribeModal-email-input">
+          </div>
+        </div>
+        <div class="form-actions">
+          <input id="subscribe-submit" type="submit" value="Subscribe" class="confirm tile" data-test-id="subscribeModal-submit-button">
+        </div>
+      </form>
+    </div>
+  </section>
+</div>
+  </div>
+</div>
+  </div>
+      </div>
+    </footer>
+  </div>
+</div>
+<div id="mobile-menu-mask" class="mobile-menu-mask"></div>
+<!-- before page_bottom -->
+  <!-- after page_bottom -->
+  <script>dataLayer.push({"event":"jqueryLoaded"});</script>
+<script>window.FrontendInfo = {"featureFlags":{"attributions":false,"react_gallery":false,"sample_feature":false,"site_search":true},"environment":{"eloqua_endpoint":"https:\/\/s840.t.eloqua.com\/e\/f2","eloqua_site_id":"840"}};</script>
+<script src="./Savvy Insights - PowerUp AUTOMATION - Swetha Srivarna S _ Tableau Public_files/commons.db50705dd3f1a252dc41.js.download"></script>
+<script src="./Savvy Insights - PowerUp AUTOMATION - Swetha Srivarna S _ Tableau Public_files/angularCommons.c257ca678cd22cdd5009.js.download"></script>
+<script src="./Savvy Insights - PowerUp AUTOMATION - Swetha Srivarna S _ Tableau Public_files/frontend.0d10391cd0266baf951b.js.download"></script>
+<script>Drupal.settings.getLanguagePreferencePath = "/s/sites/all/modules/lang_dropdown_remind/lang_dropdown_remind.callback.php";</script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/en-us\/s\/","pathPrefix":"en-us\/","colorbox":{"transition":"none","speed":"250","opacity":"1","slideshow":false,"slideshowAuto":true,"slideshowSpeed":"2500","slideshowStart":"start slideshow","slideshowStop":"stop slideshow","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"","overlayClose":true,"maxWidth":"98%","maxHeight":"98%","initialWidth":"750","initialHeight":"500","fixed":true,"scrolling":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"gss":{"key":"014661568629943033057:ki3viiva-o4"},"deferImage":{"deferClass":"defer-image-load","deferTiming":"load"},"tabia":{"publicversion":"2018.2","qthistory":"Drupal-quicktabs-active-tab-id-","facebookAppId":""},"tableauBrightcove":{"accountId":"3798483592001","defaultPlayerId":"default"},"lang_dropdown_remind":{"markup":"\u003Cdiv class=\u0022inner\u0022\u003E!message !close_button\u003C\/div\u003E","messages":{"default":"This page is available in your preferred language. Navigate there using \u003Ca id=\u0022trigger-langdropdown\u0022 href=\u0022#\u0022\u003Ethe language drop down menu\u003C\/a\u003E."},"close":{"default":"\u0026#10006;"},"repeat":0,"prependto":"#page"},"eloqua_api":{"trackingRemoteUrl":"https:\/\/img.en25.com\/i\/elqCfg.min.js","siteId":"840"}});</script>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WP98PN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WP98PN');</script>
+<!-- End Google Tag Manager --><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"35f2b5d0eb","applicationID":"6776172","transactionName":"NAADMkcCCkVVAhYNXQ1KIAVBCgtYGwAXEFoMFz4VXA0DWlE+EhZdBQwNA2oTBVFR","queueTime":0,"applicationTime":76,"atts":"GEcARA8YGUs=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+
+<div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><button type="button" id="cboxPrevious"></button><button type="button" id="cboxNext"></button><button type="button" id="cboxSlideshow"></button><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;"></div></div><script type="text/javascript" id="">(function(){window.Drupal&&window.Drupal.behaviors&&window.Drupal.behaviors.eloquaApiTracking&&"function"===typeof window.Drupal.behaviors.eloquaApiTracking.getGuid&&Drupal.behaviors.eloquaApiTracking.getGuid(function(a){dataLayer.push({elqCustomerGUID:a})})})();</script>
+<script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","378938312282541");fbq("track","PageView");</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=378938312282541&amp;ev=PageView&amp;noscript=1"></noscript>
+
+<script type="text/javascript" id="">_linkedin_data_partner_id="4478";</script><script type="text/javascript" id="">(function(){var b=document.getElementsByTagName("script")[0],a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src="https://snap.licdn.com/li.lms-analytics/insight.min.js";b.parentNode.insertBefore(a,b)})();</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=4478&amp;fmt=gif">
+</noscript>
+<script type="text/javascript" id="">!function(d,e,f,a,b,c){d.twq||(a=d.twq=function(){a.exe?a.exe.apply(a,arguments):a.queue.push(arguments)},a.version="1.1",a.queue=[],b=e.createElement(f),b.async=!0,b.src="//static.ads-twitter.com/uwt.js",c=e.getElementsByTagName(f)[0],c.parentNode.insertBefore(b,c))}(window,document,"script");twq("init","nucqf");twq("track","PageView");</script>
+<script src="./Savvy Insights - PowerUp AUTOMATION - Swetha Srivarna S _ Tableau Public_files/saved_resource" type="text/javascript"></script><script src="./Savvy Insights - PowerUp AUTOMATION - Swetha Srivarna S _ Tableau Public_files/adsct" type="text/javascript"></script></body></html>
